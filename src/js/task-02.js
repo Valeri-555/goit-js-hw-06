@@ -19,12 +19,3 @@ const items = ingredients.map((ingredient) => {
 
 ingredientsId.append(...items);
 
-// const ingredientsId = document.getElementById('ingredients');
-// console.dir(ingredientsId);
-
-
-// const list = document.createElement('li');
-// const text = document.createElement('p');
-// console.dir(list);
-// console.dir(text);
-
