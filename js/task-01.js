@@ -1,5 +1,5 @@
 const listCategory = document.getElementById('categories');
-console.log(listCategory);
+
 
 const listItem = document.querySelectorAll('.item').length;
 console.log('Number of categories:', listItem);
@@ -8,7 +8,7 @@ console.log('Number of categories:', listItem);
 // console.log(h2);
 
 const items = document.querySelectorAll("#categories .item");
-console.log(items);
+
 
 items.forEach((item) => {
     const headerText = item.querySelector("h2").textContent;
